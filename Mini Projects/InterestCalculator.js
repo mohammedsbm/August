@@ -5,20 +5,24 @@ event1.addEventListener('click', myFunction, false);//link button one to run myF
 
 function myFunction()
 {    
-    var amountInput = document.getElementById("input1").value;
-    var rateInput = document.getElementById("input2").value;
-    var termInput = document.getElementById("input3").value;
+    var amountInput = document.getElementById("input1").value; //get user input from form
+    var rateInput = document.getElementById("input2").value; //get user input from form
+    var termInput = document.getElementById("input3").value; //get user input from form
 
-    var borrowingAmount = parseInt(amountInput);
-    var intresRate = parseInt(rateInput) / 100;
-    var lengthOfLoan = parseInt(termInput);
-       
-    var annual = borrowingAmount * intresRate;
-    var monthlyPaym = annual * lengthOfLoan / 12;
-    //var totalIntPaym = "";
+    var intresRate = parseInt(rateInput) / 100; //convert user input into int and / by 12
+    var borrowingAmount = parseInt(amountInput); //convert user input into int
+    var lengthOfLoan = parseInt(termInput); //convert user input into int
+    
+    
+    var numberOfMonths = lengthOfLoan * 12; //declare how many months in the year nd * by length of the loan
+    var annual = borrowingAmount * intresRate; //calculate total annual repayment for 1 year
+    var monthlyPaym = annual * lengthOfLoan / 12; //calculate total monthly payment for 1 year
+    var totalIntPaym = annual * lengthOfLoan; //calculate total interest paid on the loan
+    var totalMonthlyPaym = totalIntPaym / numberOfMonths; //calculate total monthly interest payments on the loan
    
-    document.getElementById("demo").innerHTML = "Total Interest Paid: " + annual;
-    document.getElementById("demo2").innerHTML = "Monthly Payments Of: " + monthlyPaym;  
+    document.getElementById("demo").innerHTML = "Total Interest Paid: £" + totalIntPaym; //display total interest paid
+    
+    document.getElementById("demo2").innerHTML = "Monthly Interest Payments Of: £" + totalMonthlyPaym;  //display monthly interest payments
   
 }
 
