@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <!-- Javascript excercise 1 - display an alert box saying Hello World!!! -->
+    <head>
+        <title>Salary Tax Calculator</title>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                <div class="jumbotron text-center">
+                    <h1>Salary Tax Calculator</h1>
+                    </div>
+                </div>
+                <div class="jumbotron text-center">
+                <form>
+                <blockquote>
+                <span class="text-danger">Please Enter Your Gross Salary:</span>
+                </blockquote>
+                <input type="text" id="grossInput"/>
+                </form>
+                <div class="jumbotron text-center">
+                <button id="button1" class="btn btn-primary btn-lg active" >Calculate Tax</button>
+                </div>
+                <span class="text-danger">Gross Salary:</span><div id="demo" class="bg-primary"></div>
+                <br/>
+                <br/>
+                <span class="text-danger">Personal Allowance:</span>
+                <div id="demo2" class="bg-primary"></div>
+                <br/>
+                <br/>
+                <span class="text-danger">Tax Paid At 20%:</span>
+                <div id="demo3" class="bg-primary"></div>
+                <br/>
+                <br/>
+                <span class="text-danger">Tax Paid At 40%:</span>
+                <div id="demo4" class="bg-primary"></div>
+                <br/>
+                <br/>
+                <span class="text-danger">Net Salary:</span>
+                <div id="demo5" class="bg-primary"></div>
+                <br/>
+                <br/>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="TaxCalculator.js"></script>
+    </body>
+</html>
