@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\bin\Debug\HelloWorldDemo.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\obj\Debug\HelloWorldDemo.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\obj\Debug\HelloWorldDemo.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\HelloWorldDemo\HelloWorldDemo\obj\Debug\HelloWorldDemo.pdb

@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\bin\Debug\AverageNumber.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\bin\Debug\AverageNumber.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\bin\Debug\AverageNumber.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\obj\Debug\AverageNumber.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\obj\Debug\AverageNumber.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AverageNumber\AverageNumber\obj\Debug\AverageNumber.pdb

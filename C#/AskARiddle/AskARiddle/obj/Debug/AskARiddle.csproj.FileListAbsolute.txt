@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\bin\Debug\AskARiddle.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\bin\Debug\AskARiddle.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\bin\Debug\AskARiddle.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\obj\Debug\AskARiddle.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\obj\Debug\AskARiddle.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\AskARiddle\AskARiddle\obj\Debug\AskARiddle.csprojResolveAssemblyReference.cache

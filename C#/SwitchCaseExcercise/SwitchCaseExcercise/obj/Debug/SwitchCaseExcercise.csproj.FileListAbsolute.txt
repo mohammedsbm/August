@@ -1,0 +1,5 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\SwitchCaseExcercise\SwitchCaseExcercise\bin\Debug\SwitchCaseExcercise.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\SwitchCaseExcercise\SwitchCaseExcercise\bin\Debug\SwitchCaseExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\SwitchCaseExcercise\SwitchCaseExcercise\bin\Debug\SwitchCaseExcercise.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\SwitchCaseExcercise\SwitchCaseExcercise\obj\Debug\SwitchCaseExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\SwitchCaseExcercise\SwitchCaseExcercise\obj\Debug\SwitchCaseExcercise.pdb
