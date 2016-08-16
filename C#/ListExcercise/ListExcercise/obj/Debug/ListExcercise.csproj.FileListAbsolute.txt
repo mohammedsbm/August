@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\bin\Debug\ListExcercise.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\bin\Debug\ListExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\bin\Debug\ListExcercise.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\obj\Debug\ListExcercise.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\obj\Debug\ListExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ListExcercise\ListExcercise\obj\Debug\ListExcercise.pdb
