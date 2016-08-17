@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\bin\Debug\CarSalesObjectOrientation.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\obj\Debug\CarSalesObjectOrientation.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\bin\Debug\CarSalesObjectOrientation.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\bin\Debug\CarSalesObjectOrientation.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\obj\Debug\CarSalesObjectOrientation.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesObjectOrientation\CarSalesObjectOrientation\obj\Debug\CarSalesObjectOrientation.pdb

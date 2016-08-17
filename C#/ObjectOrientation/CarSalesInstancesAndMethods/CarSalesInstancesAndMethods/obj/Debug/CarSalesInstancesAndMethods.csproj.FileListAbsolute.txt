@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\bin\Debug\CarSalesInstancesAndMethods.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\bin\Debug\CarSalesInstancesAndMethods.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\bin\Debug\CarSalesInstancesAndMethods.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\obj\Debug\CarSalesInstancesAndMethods.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\obj\Debug\CarSalesInstancesAndMethods.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInstancesAndMethods\CarSalesInstancesAndMethods\obj\Debug\CarSalesInstancesAndMethods.pdb

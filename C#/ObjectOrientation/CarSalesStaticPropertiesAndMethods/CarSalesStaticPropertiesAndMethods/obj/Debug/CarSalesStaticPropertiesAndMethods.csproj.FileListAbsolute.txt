@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\bin\Debug\CarSalesStaticPropertiesAndMethods.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\bin\Debug\CarSalesStaticPropertiesAndMethods.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\bin\Debug\CarSalesStaticPropertiesAndMethods.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\obj\Debug\CarSalesStaticPropertiesAndMethods.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\obj\Debug\CarSalesStaticPropertiesAndMethods.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesStaticPropertiesAndMethods\CarSalesStaticPropertiesAndMethods\obj\Debug\CarSalesStaticPropertiesAndMethods.pdb
