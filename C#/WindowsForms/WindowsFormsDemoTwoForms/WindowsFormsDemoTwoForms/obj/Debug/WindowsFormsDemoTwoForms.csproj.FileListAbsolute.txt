@@ -1,0 +1,10 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\bin\Debug\WindowsFormsDemoTwoForms.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\bin\Debug\WindowsFormsDemoTwoForms.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\bin\Debug\WindowsFormsDemoTwoForms.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.Form1.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.Properties.Resources.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.csproj.GenerateResource.Cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsDemoTwoForms\WindowsFormsDemoTwoForms\obj\Debug\WindowsFormsDemoTwoForms.Form2.resources

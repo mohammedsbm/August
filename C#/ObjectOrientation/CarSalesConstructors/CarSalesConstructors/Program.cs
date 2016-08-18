@@ -19,6 +19,7 @@ namespace CarSalesConstructors
         public int price;
         public bool sold;
         public int noOfDoors;
+        public int noOfWheels;
 
         public static int totalCars;
 
@@ -32,13 +33,15 @@ namespace CarSalesConstructors
             Car.totalCars++;
         }
 
-        public Car(string make, string model, int price, int noOfDoors)
+        public Car(string make, string model, int price, int noOfDoors)//second constructor for adding cars
         {
             this.make = make;
             this.model = model;
             this.price = price;
             this.sold = false;
             this.noOfDoors = noOfDoors;
+            this.noOfWheels = 4;
+
         }
 
         public void carSold(bool isSold) //non static method to record wether a car has been sold or not

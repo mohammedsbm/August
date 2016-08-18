@@ -1,0 +1,8 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\bin\Debug\WindowsFormsLotteryDemo.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\bin\Debug\WindowsFormsLotteryDemo.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\bin\Debug\WindowsFormsLotteryDemo.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\obj\Debug\WindowsFormsLotteryDemo.Form1.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\obj\Debug\WindowsFormsLotteryDemo.Properties.Resources.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\obj\Debug\WindowsFormsLotteryDemo.csproj.GenerateResource.Cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\obj\Debug\WindowsFormsLotteryDemo.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsLotteryDemo\WindowsFormsLotteryDemo\obj\Debug\WindowsFormsLotteryDemo.pdb

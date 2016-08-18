@@ -1,0 +1,9 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\bin\Debug\WindowsFormsQuiz.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\bin\Debug\WindowsFormsQuiz.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\bin\Debug\WindowsFormsQuiz.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.Form1.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.Properties.Resources.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.csproj.GenerateResource.Cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsQuiz\WindowsFormsQuiz\obj\Debug\WindowsFormsQuiz.pdb

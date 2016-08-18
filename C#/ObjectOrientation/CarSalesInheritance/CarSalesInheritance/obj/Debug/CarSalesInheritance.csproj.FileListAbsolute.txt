@@ -1,0 +1,6 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\bin\Debug\CarSalesInheritance.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\obj\Debug\CarSalesInheritance.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\bin\Debug\CarSalesInheritance.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\bin\Debug\CarSalesInheritance.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\obj\Debug\CarSalesInheritance.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\ObjectOrientation\CarSalesInheritance\CarSalesInheritance\obj\Debug\CarSalesInheritance.pdb
