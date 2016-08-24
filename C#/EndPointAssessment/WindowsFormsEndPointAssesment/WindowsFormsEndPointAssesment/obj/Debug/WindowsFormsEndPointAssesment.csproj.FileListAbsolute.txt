@@ -1,0 +1,9 @@
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\bin\Debug\WindowsFormsEndPointAssesment.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\bin\Debug\WindowsFormsEndPointAssesment.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\bin\Debug\WindowsFormsEndPointAssesment.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.Form1.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.Properties.Resources.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.csproj.GenerateResource.Cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\EndPointAssessment\WindowsFormsEndPointAssesment\WindowsFormsEndPointAssesment\obj\Debug\WindowsFormsEndPointAssesment.pdb

@@ -1,1 +1,9 @@
 C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\bin\Debug\WindowsFormsExcercise.exe.config
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\bin\Debug\WindowsFormsExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\bin\Debug\WindowsFormsExcercise.pdb
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.csprojResolveAssemblyReference.cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.Form1.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.Properties.Resources.resources
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.csproj.GenerateResource.Cache
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.exe
+C:\Users\student\Mohammed Mazumder\GitHub\August\C#\WindowsForms\WindowsFormsExcercise\WindowsFormsExcercise\obj\Debug\WindowsFormsExcercise.pdb
