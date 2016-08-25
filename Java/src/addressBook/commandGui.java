@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static addressBook.generatedContact.contacts;
+
 /**
  * Created by student on 8/23/2016.
  */
@@ -30,6 +32,8 @@ public class commandGui {
 
         }while (choice < 1 || choice > 6);
 
+        int index;
+
         List<String> tempData = new ArrayList<>();
 
         switch(choice) {
@@ -39,12 +43,24 @@ public class commandGui {
                 display();
                 break;
             case 2:
+                TaskProcessing.removeContact(requestIndex());
+                display();
+                break;
             case 3:
+                index = findFirstName();
+                tempData = inputScreen();
+                TaskProcessing.editContact(index, tempData);
+                display();
+                break;
             case 4:
                 TaskProcessing.printAll();
                 display();
-
+                break;
             case 5:
+                index = findFirstName();
+                System.out.println(contacts.get(index));
+                display();
+                break;
             case 6:
                 break;
         }
@@ -91,5 +107,18 @@ public class commandGui {
         contactData.add(input.nextLine());
 
         return contactData;
+    }
+
+    static int findFirstName() {
+        System.out.print("Enter First Name: ");
+        String firstName = input.next();
+        return TaskProcessing.searchByFirstName(firstName);
+
+    }
+
+    static int requestIndex() {
+
+        System.out.print("Enter Contact Index To Remove: ");
+        return input.nextInt();
     }
 }

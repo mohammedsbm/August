@@ -20,6 +20,10 @@ public class generatedPeople {
             LocalDate.of(1965, 4, 16), SexType.MALE,
             "X-File specialist", LocalDate.of(1995, 10, 16));
 
+    public static Employee me = new Employee("Me", "You", (short)185, 78.90,
+            LocalDate.of(1965, 4, 16), SexType.MALE,
+            "X-File specialist", LocalDate.of(1995, 10, 16));
+
 
 
     public static List<Employee> people = new ArrayList<>(); //collection of employees
@@ -28,5 +32,6 @@ public class generatedPeople {
         //people.add(saqib);
         //people.add(dana);
         people.add(fox);
+        people.add(me);
     }
 }

@@ -118,8 +118,8 @@ public class commandGUI {
 
     static int findFirstName() {
         System.out.print("Enter First Name: "); //request input
-        String firstname = input.next();
-        return TaskProcessing.searchByFirstName(firstname);
+        String firstName = input.next();
+        return TaskProcessing.searchByFirstName(firstName);
     }
 
     static int requestIndex() {

@@ -9,10 +9,8 @@ public class MainProgramme {
 
     public static void main(String[] args) {
 
-        //generatedPeople.addPeople();
-
-        //commandGUI.display();
         generatedPeople.addPeople();
-        TaskProcessing.executeGui();
+        new WelcomeWindow();
+
     }
 }
