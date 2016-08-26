@@ -7,6 +7,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.*;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -231,10 +232,14 @@ public class MainWindow implements ActionListener { //implements - want to add f
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(createNew && employeeList.isSelectionEmpty()) { //if new then create new employee
-                    TaskProcessing.createEmployee(getFieldsInfo()); //create new employee
-                    createEmployeeList(); //update list
-                    createNew = false; //set new to false
-                    clearTxtFields(); //clear fields
+                    try {
+                        TaskProcessing.newEmployee(getFieldsInfo()); //create new employee
+                        createEmployeeList(); //update list
+                        clearTxtFields(); //clear fields
+                    } catch (SQLException createEx) {
+                        JOptionPane.showMessageDialog(null, "ERROR ADDING EMPLOYEE" +
+                        System.lineSeparator() + createEx);
+                    }
                 }else { //else if existing edit employee
                     TaskProcessing.editDetails(employeeIndex, getFieldsInfo());
                     createEmployeeList();
@@ -318,19 +323,10 @@ public class MainWindow implements ActionListener { //implements - want to add f
         data.add(txtLastName.getText());
         data.add(txtHeight.getText());
         data.add(txtWeight.getText());
-
-        String[] stringDob = txtBirthDate.getText().split("-");
-        data.add(stringDob[0]);
-        data.add(stringDob[1]);
-        data.add(stringDob[2]);
-
+        data.add(txtBirthDate.getText());
         data.add(txtSex.getText());
         data.add(txtPosition.getText());
-
-        String[] stringHireDate = txtHireDate.getText().split("-");
-        data.add(stringHireDate[0]);
-        data.add(stringHireDate[1]);
-        data.add(stringHireDate[2]);
+        data.add(txtHireDate.getText());
 
         return data;
 

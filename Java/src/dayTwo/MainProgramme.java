@@ -7,9 +7,10 @@ package dayTwo;
  */
 public class MainProgramme {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        generatedPeople.addPeople();
+        //generatedPeople.addPeople();
+        TaskProcessing.prepareDb();
         new WelcomeWindow();
 
     }

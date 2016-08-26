@@ -1,6 +1,7 @@
 package addressBook;
 
 import javax.swing.*;
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -8,7 +9,7 @@ import java.awt.event.WindowListener;
 /**
  * Created by student on 8/25/2016.
  */
-public class MainWindow implements ActionListener {
+public class MainWindow {
 
     //declare labels
     private JLabel lblFirstName;
