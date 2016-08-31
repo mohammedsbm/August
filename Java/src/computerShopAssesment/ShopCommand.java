@@ -37,15 +37,7 @@ public class ShopCommand {
         switch(choice) {
             case 'C':
                 System.out.println("Do You Want To Create A Laptop Or Desktop?");
-                String userInput = input.next();
-                if(userInput.contains("Laptop")) {
-                    tempData = laptopInputScreen();
-                    TaskProcessing.createLaptop(tempData);
-                }
-                else {
-                    tempData = desktopInputScreen();
-                    TaskProcessing.createDesktop(tempData);
-                }
+                selectInputScreen(tempData);
                 display();
                 break;
 
@@ -131,6 +123,20 @@ public class ShopCommand {
         userData.add(input.nextLine());
 
         return userData;
+    }
+
+    static void selectInputScreen(List<String> data) {
+
+        String userInput = input.next();
+        if(userInput.contains("Laptop")) {
+            data = laptopInputScreen();
+            TaskProcessing.createLaptop(data);
+        }
+        else {
+            data = desktopInputScreen();
+            TaskProcessing.createDesktop(data);
+        }
+
     }
 
 }
