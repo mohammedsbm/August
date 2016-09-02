@@ -58,6 +58,7 @@ Use the tax rules at: https://www.gov.uk/government/publications/tax-and-tax-cre
 var grossSalary = 0; //declare grossSalary as global variable and use and modify within functions
 var personalAllow = 0; //declare personalAllow as global variable and use and modify within functions
 var taxableIncome = 0; //declare taxableIncome as global variable and use and modify within functions
+var tax20 = 0;
 
 var event1 = document.getElementById("button1"); //create variable to store button1
 event1.addEventListener('click', getInput, false); //link button1 to run getInput()
@@ -72,7 +73,7 @@ function getInput()
 
     personalAllow = 11000; //initialise tax free allowance to 11000
 
-    taxableIncome = grossSalary - personalAllow; //calculate taxable income
+    //taxableIncome = grossSalary; //calculate taxable income
     
     showResults(); //call function showresults()
  
@@ -81,9 +82,9 @@ function getInput()
 function taxAt40() //function to calculate tax at 40%
 {
     //alert(taxableIncome);
-    if(taxableIncome > 32000) //if taxable income is more than 32000 execute code else return 0.
+    if(grossSalary > 32000) //if taxable income is more than 32000 execute code else return 0.
         {
-            var tax40 = (taxableIncome - 32000) * 0.4; 
+            var tax40 = (grossSalary - 43000) * 0.4; 
             
             return tax40;
         }
@@ -94,14 +95,20 @@ function taxAt40() //function to calculate tax at 40%
 function taxAt20() //function to calculate tax at 20%
 {
     //alert(personalAllow);
-    if(taxableIncome > personalAllow) //if taxable income is more than personal allowance execute code else return 0.
+    if (grossSalary > 43000)  //40% tax payers
+        {
+            tax20 = 32000 * 0.2;
+        }
+    else if(grossSalary > personalAllow)//20% tax payers
        {
-           var tax20 = 32000 * 0.2;
+           tax20 = (grossSalary - personalAllow) * 0.2;
           
-           return tax20;
+           
        }
-    else return 0;
+    else
+        tax20 = 0;
     
+    return tax20;
        
 };
 

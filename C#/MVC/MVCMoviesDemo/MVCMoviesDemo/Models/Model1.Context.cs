@@ -7,24 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVCMoviesDemo.Models
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+
+public partial class MoviesDBMohammedEntities : DbContext
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
-    
-    public partial class MoviesDBMohammedEntities : DbContext
+    public MoviesDBMohammedEntities()
+        : base("name=MoviesDBMohammedEntities")
     {
-        public MoviesDBMohammedEntities()
-            : base("name=MoviesDBMohammedEntities")
-        {
-        }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
-    
-        public virtual DbSet<Movie> Movies { get; set; }
     }
+
+    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    {
+        throw new UnintentionalCodeFirstException();
+    }
+
+    public virtual DbSet<Movie> Movies { get; set; }
 }
