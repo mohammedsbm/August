@@ -24,13 +24,46 @@
                 <asp:Button ID="BtnCalculateTax" runat="server" Text="Calculate Tax" OnClick="BtnCalculateTax_Click" />
                 <br />
                 <br />
+                <asp:Label ID="LabelPa" runat="server" Text="Personal Allowance:"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LblPersonalAllow" runat="server" Text="Label"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="Label20" runat="server" Text="Taxed at 20%:"></asp:Label>
+                <br />
+                <br />
                 <asp:Label ID="LblTax20" runat="server" Text="Label"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="Label40" runat="server" Text="Taxed at 40%:"></asp:Label>
                 <br />
                 <br />
                 <asp:Label ID="LblTax40" runat="server" Text="Label"></asp:Label>
                 <br />
                 <br />
+                <asp:Label ID="Label45" runat="server" Text="Taxed at 45%:"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LblTax45" runat="server" Text="Label"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LabelNi" runat="server" Text="NIC Tax::"></asp:Label>
+                <br />
+                <br />
                 <asp:Label ID="LblTaxNi" runat="server" Text="Label"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LabelTotalTax" runat="server" Text="Total Tax Paid:"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LblTotalTax" runat="server" Text="Label"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LabelNetIncome" runat="server" Text="Net Income:"></asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="LblNetIncome" runat="server" Text="Label"></asp:Label>
             </ContentTemplate>
         </asp:UpdatePanel>
     </div>
