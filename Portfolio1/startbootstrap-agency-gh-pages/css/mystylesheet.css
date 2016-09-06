@@ -1,0 +1,38 @@
+.intro-colour {
+    color: black;
+}
+
+.btn-colour {
+    background-color: #B03E33 !important;
+    border-color: #B03E33 !important;
+}
+
+.btn-colour:hover,
+.btn-colour:focus
+.btn-colour:active,
+.btn-colour.active,
+.open .dropdown-toggle.btn-colour {
+    color: #1AB4F2;
+    background-color: #D42F52 !important;
+    border-color: #D42F52 !important;
+    
+}
+
+.home-text {
+    color: #ffffff !important;
+}
+.home-text:hover {
+    color: #D42F52 !important;
+}
+
+.menu-list {
+    color: #ffffff !important;
+}
+.menu-list:hover {
+    color: #D42F52 !important;
+}
+.menu-list:focus,
+.menu-list:active {
+    background-color: #D42F52 !important;
+    color: #1AB4F2 !important;
+}
