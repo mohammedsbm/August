@@ -9,15 +9,17 @@ using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page
 {
+    double nic2Percent = 0.02;
+    double nic12Percent = 0.12;
     double basicTxRate = 0.2;
     double higherTxRate = 0.4;
     double addTxRate = 0.45;
     int personalAllowance = 11000;
     //int newPersonalAllowance;
-    int niThreshold = 8060;
+    int niThreshold1 = 8060;
+    int niThreshold2 = 43000;
     int grossIncome = 0;
     int taxableIncome = 0;
-    int niTaxable;
     int basicLimit = 43000;
     int addiLimit = 150000;
     double netIncome = 0;
@@ -26,6 +28,7 @@ public partial class _Default : System.Web.UI.Page
     double tax40 = 0;
     double tax20 = 0;
     double tax45 = 0;
+    double niTax = 0;
 
     private double reducedPa() //personal allowance for gross income between 100,000 and 122,000
     {
@@ -77,7 +80,7 @@ public partial class _Default : System.Web.UI.Page
         }
            
         //alert(taxableIncome);
-        else if (grossIncome > 32000) //if taxable income is more than 32000 execute code else return 0.
+        else if (grossIncome > 43000) //if taxable income is more than 32000 execute code else return 0.
         {
             taxableIncome = grossIncome - personalAllowance;
             tax40 = (grossIncome - basicLimit) * higherTxRate;
@@ -106,17 +109,44 @@ public partial class _Default : System.Web.UI.Page
         return tax20;
     }
 
+    private double niTax12()
+    {
+        grossIncome = int.Parse(TxtIncomeInput.Text);
+
+        if (grossIncome > niThreshold2) //tax at 2%
+        {
+            double nic12 = (niThreshold2 - niThreshold1) * nic12Percent; //12%
+            double nic2 = (grossIncome - niThreshold2) * nic2Percent; //2%
+            niTax = nic12 + nic2;
+        }
+        else if (grossIncome > niThreshold1) //tax at 12%
+        {
+            niTax = (grossIncome - niThreshold1) * nic12Percent;
+        }
+        else if (grossIncome < niThreshold1)
+        {
+            niTax = 0; //no tax
+        }
+
+        return niTax;
+    }
+
+    //private void checkRadio()
+    //{
+        
+    //}
+
     protected void BtnCalculateTax_Click(object sender, EventArgs e)
     {
-        totalTax = taxAt20() + taxAt40() + taxAt45();
+        totalTax = taxAt20() + taxAt40() + taxAt45() + niTax12();
         netIncome = grossIncome - totalTax;
 
         LblPersonalAllow.Text = personalAllowance.ToString();
-        LblTax20.Text = taxAt20().ToString();
-        LblTax40.Text = taxAt40().ToString();
         LblTax45.Text = taxAt45().ToString();
+        LblTax40.Text = taxAt40().ToString();
+        LblTax20.Text = taxAt20().ToString();
         LblTotalTax.Text = totalTax.ToString();
-        //LblTaxNi.Text = newPersonalAllowance.ToString();
+        LblTaxNi.Text = niTax12().ToString();
         LblNetIncome.Text = netIncome.ToString();
 
     }

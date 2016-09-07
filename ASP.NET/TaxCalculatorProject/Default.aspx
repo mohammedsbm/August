@@ -18,7 +18,12 @@
                 <asp:TextBox ID="TxtIncomeInput" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:CheckBox ID="CheckBoxNi" runat="server" Text="Ni?" />
+                <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                    <asp:ListItem>Yearly</asp:ListItem>
+                    <asp:ListItem>Monthly</asp:ListItem>
+                    <asp:ListItem>Weekly</asp:ListItem>
+                    <asp:ListItem>Daily</asp:ListItem>
+                </asp:RadioButtonList>
                 <br />
                 <br />
                 <asp:Button ID="BtnCalculateTax" runat="server" Text="Calculate Tax" OnClick="BtnCalculateTax_Click" />
@@ -30,10 +35,10 @@
                 <asp:Label ID="LblPersonalAllow" runat="server" Text="Label"></asp:Label>
                 <br />
                 <br />
-                <asp:Label ID="Label20" runat="server" Text="Taxed at 20%:"></asp:Label>
+                <asp:Label ID="Label45" runat="server" Text="Taxed at 45%:"></asp:Label>
                 <br />
                 <br />
-                <asp:Label ID="LblTax20" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="LblTax45" runat="server" Text="Label"></asp:Label>
                 <br />
                 <br />
                 <asp:Label ID="Label40" runat="server" Text="Taxed at 40%:"></asp:Label>
@@ -42,10 +47,10 @@
                 <asp:Label ID="LblTax40" runat="server" Text="Label"></asp:Label>
                 <br />
                 <br />
-                <asp:Label ID="Label45" runat="server" Text="Taxed at 45%:"></asp:Label>
+                <asp:Label ID="Label20" runat="server" Text="Taxed at 20%:"></asp:Label>
                 <br />
                 <br />
-                <asp:Label ID="LblTax45" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="LblTax20" runat="server" Text="Label"></asp:Label>                
                 <br />
                 <br />
                 <asp:Label ID="LabelNi" runat="server" Text="NIC Tax::"></asp:Label>

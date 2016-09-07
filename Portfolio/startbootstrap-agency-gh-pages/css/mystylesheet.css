@@ -1,0 +1,76 @@
+.intro-colour {
+    color: black;
+}
+
+.btn-colour {
+    background-color: #B03E33 !important;
+    border-color: #B03E33 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 9px #666 !important;
+    transition: all 0s !important;
+    cursor: pointer !important;
+}
+
+.btn-colour:hover,
+.btn-colour:focus
+.open .dropdown-toggle.btn-colour {
+    color: #1AB4F2;
+    background-color: #D42F52 !important;
+    border-color: #D42F52 !important;
+}
+
+.btn-colour:active,
+.btn-colour.active {
+    box-shadow: 0 5px #333 !important;
+    transform: translateY(4px) !important;
+}
+
+.home-text {
+    color: #ffffff !important;
+}
+.home-text:hover {
+    color: #D42F52 !important;
+}
+
+.menu-list {
+    color: #ffffff !important;
+}
+
+.menu-list:hover {
+    color: #D42F52 !important;
+}
+
+.menu-list:focus,
+.menu-list:visited,
+.menu-list:active {
+    border-radius: 5px !important;
+    background-color: #D42F52 !important;
+    color: #1AB4F2 !important;
+    transition-duration: 1s !important;
+    transition-timing-function:linear !important;
+}
+
+.navbar-nav>.active>a {
+    border-radius:5px !important;
+    color:#1AB4F2 !important;
+    background-color:#D42F52 !important;
+}
+
+/*.home-icon {
+    position:relative
+}
+
+.home-icon:before {
+    content: "\f062";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+   /* color: #fff;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}*/
