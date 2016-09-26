@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -133,21 +134,87 @@ public partial class _Default : System.Web.UI.Page
 
     //private void checkRadio()
     //{
-        
+
     //}
 
-    protected void BtnCalculateTax_Click(object sender, EventArgs e)
+    //private double getData(Label labeldata)
+    //{
+    //    if (!string.IsNullOrWhiteSpace(labeldata.Text))
+    //    {
+
+    //        return double.Parse(labeldata.Text);
+    //    }
+    //    else
+    //    {
+    //        return 0;
+    //    }
+    //}
+
+    //private void DrawChart()
+    //{
+    //    string chartType = "'pie'";
+    //    Type Income = GetType();
+    //    //Type Expenses = GetType();
+
+    //    totalTax = getData(LblTotalTax);
+    //    netIncome = getData(LblNetIncome);
+
+    //    //salary = getUserData(SalaryTextBox);
+    //    //addIncome = getUserData(AdditionalIncomeTextBox);
+    //    //mortgage = getUserData(MortgageTextBox);
+    //    //electricty = getUserData(ElectricityTextBox);
+    //    //gas = getUserData(GasTextBox);
+    //    //tv = getUserData(TvTextBox);
+    //    //phone = getUserData(PhoneTextBox);
+    //    //internet = getUserData(InternetTextBox);
+    //    //petrol = getUserData(PetrolTextBox);
+    //    //insurance = getUserData(InsuranceTextBox);
+    //    //otherExp = getUserData(OtherExpTextBox);
+
+    //    //totalIncome = salary + addIncome;
+
+    //    //utilities = electricty + gas;
+    //    //tvandothers = tv + phone + internet;
+
+    //    //totalExp = mortgage + utilities + tvandothers + petrol + insurance + otherExp;
+
+    //    //total = totalIncome - totalExp;
+
+    //    StringBuilder incomestring = new StringBuilder();
+    //    incomestring.Append("drawIncome(" + chartType + "," + totalTax + "," + netIncome + "," + grossIncome + ");");
+
+    //    //StringBuilder expensestring = new StringBuilder();
+    //    //expensestring.Append("drawExp(" + chartType + "," + mortgage + "," + utilities + "," + tvandothers + "," + petrol + "," + insurance + "," + otherExp + "," + totalExp + ");");
+
+
+    //    ClientScript.RegisterStartupScript(this.GetType(), "draw", incomestring.ToString(), true);
+
+    //    //ClientScript.RegisterStartupScript(this.GetType(), "draw1", expensestring.ToString(), true);
+
+    //    //ClientScript.RegisterStartupScript(this.GetType(), "draw", "drawChart('" + chartType + "','" + salary + "','" + addIncome + "','" + totalIncome + "');", true);
+
+    //}
+
+    private void calculateTax()
     {
+       
         totalTax = taxAt20() + taxAt40() + taxAt45() + niTax12();
         netIncome = grossIncome - totalTax;
 
-        LblPersonalAllow.Text = personalAllowance.ToString();
-        LblTax45.Text = taxAt45().ToString();
-        LblTax40.Text = taxAt40().ToString();
-        LblTax20.Text = taxAt20().ToString();
-        LblTotalTax.Text = totalTax.ToString();
-        LblTaxNi.Text = niTax12().ToString();
-        LblNetIncome.Text = netIncome.ToString();
+        LblPersonalAllow.Text = "£" + personalAllowance.ToString();
+        LblTax45.Text = "£" + taxAt45().ToString();
+        LblTax40.Text = "£" + taxAt40().ToString();
+        LblTax20.Text = "£" + taxAt20().ToString();
+        LblTotalTax.Text = "£" + totalTax.ToString();
+        LblTaxNi.Text = "£" + niTax12().ToString();
+        LblNetIncome.Text = "£" + netIncome.ToString();
 
+    }
+
+    protected void BtnCalculateTax_Click(object sender, EventArgs e)
+    {
+        calculateTax();
+
+        //DrawChart();
     }
 }
